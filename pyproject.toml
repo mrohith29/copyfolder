@@ -1,0 +1,18 @@
+[project]
+name = "copyfolder"
+version = "0.0.1"
+authors = [
+  { name="Mariyala Rohith", email="mariyalarohith29@gmail.com" },
+]
+description = "You can use this package to copy the content from one location to another location"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mrohith29/copyfolder"
+Issues = "https://github.com/mrohith29/copyfolder/issues"
