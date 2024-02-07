@@ -2,6 +2,7 @@ LICENSE
 README.md
 pyproject.toml
 src/__init__.py
+src/setup.py
 src/copyfolder.egg-info/PKG-INFO
 src/copyfolder.egg-info/SOURCES.txt
 src/copyfolder.egg-info/dependency_links.txt

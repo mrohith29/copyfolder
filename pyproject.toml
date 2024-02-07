@@ -1,6 +1,6 @@
 [project]
 name = "copyfolder"
-version = "0.0.1"
+version = "0.1.9"
 authors = [
   { name="Mariyala Rohith", email="mariyalarohith29@gmail.com" },
 ]

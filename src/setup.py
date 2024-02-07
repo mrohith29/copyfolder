@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="cpyfolder",
-    version="0.1.2",
+    name="copyfolder",
+    version="0.1.9",
     description="Copy and paste your folders from the source to the destination folder",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -26,10 +26,10 @@ setuptools.setup(
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
     include_package_data=True,
-    install_requires=["argparse", "shutin"],
+    install_requires=["rich"],
     entry_points={
         "console_scripts": [
-            "move=move.__main__:move",
+            "move=move.__init__",
         ]
     },
 )
